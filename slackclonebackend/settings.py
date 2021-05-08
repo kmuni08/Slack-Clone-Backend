@@ -28,6 +28,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'pages.apps.PagesConfig',
+    'authaccounts.apps.AuthaccountsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -113,7 +114,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'SlackDB',
         'USER': 'postgres',
-        'PASSWORD': '<insert password>',
+        'PASSWORD': 'input your password',
         'HOST': 'localhost',
         'PORT': '5432'
     }
