@@ -9,8 +9,7 @@ from django.contrib import admin
 
 
 urlpatterns = [
-    # path('oauth2/login', views.social_login, name='oauth2_login'),
     path('login', views.login, name='login'),
     path('register', views.register, name='register'),
-    path('auth/sign-in', views.google_sign_in, name='oauth2_sign_in')
+    path('auth/social-sign-in', views.google_sign_in, name='oauth2_sign_in')
 ]

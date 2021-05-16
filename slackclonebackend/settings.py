@@ -114,7 +114,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'SlackDB',
         'USER': 'postgres',
-        'PASSWORD': 'input your password',
+        'PASSWORD': '<insert password>',
         'HOST': 'localhost',
         'PORT': '5432'
     }
