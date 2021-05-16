@@ -12,4 +12,4 @@ class User(models.Model):
     last_name = models.CharField(max_length=100)
     username = models.CharField(validators=[MinLengthValidator(5)], max_length=100, unique=True)  # username should be unique.
     email = models.CharField(validators=[MinLengthValidator(10)], max_length=100, unique=True)  # email must be unique.
-    password = models.CharField(validators=[MinLengthValidator(10)], max_length= 500, blank=True)
+    password = models.CharField(validators=[MinLengthValidator(10)], max_length=500, blank=True)
